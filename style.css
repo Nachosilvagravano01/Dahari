@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+li{
+    list-style: none;
+}
+.header{
+    display: grid;
+    width: 100%;
+    grid-column: auto;
+    
+}
+.titulositio{
+    height: 10%;
+    padding: 1%;
+    text-align: center;
+}
+.titulositio h1{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.2vw;
+    font-weight: 700;
+    color: rgb(209, 184, 129);
+}
+.titulositio a{
+    text-decoration: none;
+}
+.nav{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li{
+    font-size: 1.5rem;
+
+}
+.nav a{
+    margin: 0.4vw;
+    color: black;
+    text-decoration: none;
+    }
+   /* /////////////////////////////////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////////////////////////////////// */
+.seccionfrase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 5%;
+    background: rgb(240,151,151);
+
+         
+}
+.seccionfrase p{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.seccionuno{
+    display: grid;
+    columns: auto;
+    grid-row: auto auto;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.seccionuno__titulo{
+    font-size: 6vh;
+    font-weight: 200;
+}
+.seccionuno__texto{
+    font-size: 2.5vh;
+    padding: 1% 5%;
+} 
