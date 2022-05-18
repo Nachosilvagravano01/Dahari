@@ -1,7 +1,6 @@
 *{
     padding: 0%;
     margin: 0%;
-
 }
 li{
     list-style: none;
@@ -10,7 +9,6 @@ li{
     display: grid;
     width: 100%;
     grid-column: auto;
-    
 }
 .titulositio{
     height: 10%;
@@ -43,7 +41,10 @@ li{
     text-decoration: none;
     }
    /* /////////////////////////////////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////////////////////////////////// */
-.seccionfrase{
+   .maininx{
+    background-color:rgb(255, 238, 217);
+}
+   .seccionfrase{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +95,7 @@ li{
     padding: 1% 5%; 
 }
   /* /////////////////////////////////////////////////////////////////Main-Index/////////////////////////////////////////////////////////////////////////////////////////////////// */
- .titulocontacto{
+  .titulocontacto{
      text-align: center;
      font-size: 4rem;
      font-weight: 600;
@@ -106,19 +107,217 @@ li{
     padding: 5%;
     background-color: rgb(209, 184, 129);
 }
+
 /* /////////////////////////////////////////////////////////////////Main-Contacto/////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-.seccionbrazaletes{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 0%;
-    background-color: antiquewhite;
+.containerproduct{
+display: grid;
+grid-template-columns: auto auto auto;
+justify-content: center;
+background-color: rgb(255, 238, 217);
 }
-
-.seccionbrazaletes div{
-    margin-left: auto;
-    margin-right: auto;
-    height: 48vh;
+.card{
+    background: rgb(247, 190, 67);
+    width: 320px;
+    margin: 30px 70px;
+    border-radius: 15px;
 }
+.card-image{
+    height: 270px;
+    margin-bottom: 15px;
+    border-radius: 15px 0 0;
+}
+.aros-fabula{
+    background-image: url(./imagines/Aros/A-FABULA-700x560.jpg);
+    background-size: cover;
+}
+.aros-fortuna{
+    background-image: url(./imagines/Aros/A-FORTUNA-1-700x560.jpg);
+    background-size: cover; 
+}
+.aros-odone{
+    background-image: url(./imagines/Aros/A-ODONE-700x560.jpg);
+    background-size: cover; 
+}
+.aros-viuda{
+    background-image: url(./imagines/Aros/A-VIUDA-700x560.jpg);
+    background-size: cover; 
+}
+.aros-zach{
+    background-image: url(./imagines/Aros/A-ZACH-700x560.jpg);
+    background-size: cover; 
+}
+.aros-tania{
+    background-image: url(./imagines/Aros/AROS-TANIA-L-700x560.jpg);
+    background-size: cover; 
+}
+.aros-nicaragua{
+    background-image: url(./imagines/Aros/A-NICARAGUA-700x560.jpg);
+    background-size: cover;
+}
+.aros-zeidon{
+    background-image: url(./imagines/Aros/A-ZEIDON-4-1-700x560.jpg);
+    background-size: cover;
+}
+.aros-galatea{
+    background-image: url(./imagines/Aros/AROS-GALATEA-700x560.jpg);
+    background-size: cover;
+}
+.card h3{
+    display: flex;
+    justify-content:center ;
+}
+.card p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+  }
+/* /////////////////////////////////////////////////////////////////Main-Aros/////////////////////////////////////////////////////////////////////////////////////////////////// */
+.containerproduct{
+display: grid;
+grid-template-columns: auto auto auto;
+justify-content: center;
+background-color: rgb(255, 238, 217);
+}
+.card{
+    background: rgb(247, 190, 67);
+    width: 320px;
+    margin: 30px 70px;
+    border-radius: 15px;
+}
+.card-image{
+    height: 270px;
+    margin-bottom: 15px;
+    border-radius: 15px 0 0;
+}
+.brazalete-amalfi{
+    background-image: url(./imagines/Pulseras/brazalate-amalfi-700x560.jpg);
+    background-size: cover;
+}
+.brazalete-natalie{
+    background-image: url(./imagines/Pulseras/BRAZALETE-NATALIE-700x560.jpg);
+    background-size: cover; 
+}
+.brazalete-idalia{
+    background-image: url(./imagines/Pulseras/brazalete\ idalia\ 2\ cherie.jpg);
+    background-size: cover; 
+}
+.brazalete-ilonia{
+    background-image: url(./imagines/Pulseras/BRAZALETE-ILONA-700x560.jpg);
+    background-size: cover; 
+}
+.brazalete-pachano{
+    background-image: url(./imagines/Pulseras/brazalete-pachano-700x560.jpg);
+    background-size: cover; 
+}
+.brazalete-safari{
+    background-image: url(./imagines/Pulseras/BRAZALETE-SAFARI-700x560.jpg);
+    background-size: cover; 
+}
+.brazalete-antitonieta{
+    background-image: url(./imagines/Pulseras/BRAZALETE-ANTONIETTA-1-700x560.jpg);
+    background-size: cover;
+}
+.brazalete-finlandia{
+    background-image: url(./imagines/Pulseras/BRAZALETE-FINLANDIA-700x560.jpg);
+    background-size: cover;
+}
+.brazalete-marfil{
+    background-image: url(./imagines/Pulseras/BRAZALETE-MARFIL-MARRON-700x560.jpg);
+    background-size: cover;
+}
+.card h3{
+    display: flex;
+    justify-content:center ;
+}
+.card p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+  }
+ /* /////////////////////////////////////////////////////////////////Main-Brazaletes/////////////////////////////////////////////////////////////////////////////////////////////////// */ 
+ .containerproduct{
+display: grid;
+grid-template-columns: auto auto auto;
+justify-content: center;
+background-color: rgb(255, 238, 217);
+}
+.card{
+    background: rgb(247, 190, 67);
+    width: 320px;
+    margin: 30px 70px;
+    border-radius: 15px;
+}
+.card-image{
+    height: 270px;
+    margin-bottom: 15px;
+    border-radius: 15px 0 0;
+}
+.anillos-angelica{
+    background-image: url(./imagines/Anillos/AN-ANGELICA-700x560.jpg);
+    background-size: cover;
+}
+.anillos-aztecas{
+    background-image: url(./imagines/Anillos/AN-AZTECAS.jpg);
+    background-size: cover; 
+}
+.anillos-dubai{
+    background-image: url(./imagines/Anillos/AN-DUBAI-700x560.jpg);
+    background-size: cover; 
+}
+.anillos-luis{
+    background-image: url(./imagines/Anillos/AN-LUIS-700x560.jpg);
+    background-size: cover; 
+}
+.anillos-amsterdam{
+    background-image: url(./imagines/Anillos/ANILLO-AMSTERDAM-2-700x560.jpg);
+    background-size: cover; 
+}
+.anillos-bolon{
+    background-image: url(./imagines/Anillos/ANILLO-BOLON-700x560.jpg);
+    background-size: cover; 
+}
+.anillos-camelia{
+    background-image: url(./imagines/Anillos/ANILLO-CAMELIA-700x560.jpg);
+    background-size: cover;
+}
+.anillos-galopago{
+    background-image: url(./imagines/Anillos/ANILLO-GALOPAGO-PLATA-700x560.jpg);
+    background-size: cover;
+}
+.anillos-luona{
+    background-image: url(./imagines/Anillos/ANILLO-LUONA-1-700x560.jpg);
+    background-size: cover;
+}
+.card h3{
+    display: flex;
+    justify-content:center ;
+}
+.card p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+  }
