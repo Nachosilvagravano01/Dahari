@@ -40,7 +40,27 @@ li{
     color: black;
     text-decoration: none;
     }
-   /* /////////////////////////////////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////////////////////////////////// */
+    
+@media screen and (max-width:952px){
+        .titulositio{
+            font-size: 30px;
+            text-align: center;
+        }
+        .nav li a{
+            font-size: 16px;
+            display: grid;
+            grid-template-columns: auto;
+            text-align: center;
+            line-height: 25px;
+
+}
+}
+@media screen and (max-width:958px){
+
+
+}
+
+/* /////////////////////////////////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////////////////////////////////// */
    .maininx{
     background-color:rgb(255, 238, 217);
 }
@@ -114,6 +134,8 @@ display: grid;
 grid-template-columns: auto auto auto;
 justify-content: center;
 background-color: rgb(255, 238, 217);
+
+
 }
 .card{
     background: rgb(247, 190, 67);
@@ -125,6 +147,11 @@ background-color: rgb(255, 238, 217);
     height: 270px;
     margin-bottom: 15px;
     border-radius: 15px 0 0;
+}
+.card a{
+    display: inline-block;
+    margin-top: auto;
+    text-align: center;
 }
 .aros-fabula{
     background-image: url(./imagines/Aros/A-FABULA-700x560.jpg);
@@ -174,11 +201,13 @@ background-color: rgb(255, 238, 217);
 .card a {
     background-color: black;
     color: white;
-    padding: 15px 20px;
+    padding: 1rem;
     display: block;
     text-align: center;
     margin: 20px 50px;
+    text-decoration: none;
   }
+
 /* /////////////////////////////////////////////////////////////////Main-Aros/////////////////////////////////////////////////////////////////////////////////////////////////// */
 .containerproduct{
 display: grid;
@@ -257,11 +286,20 @@ grid-template-columns: auto auto auto;
 justify-content: center;
 background-color: rgb(255, 238, 217);
 }
+@media screen and (max-width:958px){
+    .containerproduct{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
 .card{
     background: rgb(247, 190, 67);
     width: 320px;
     margin: 30px 70px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
 }
 .card-image{
     height: 270px;
@@ -317,7 +355,55 @@ background-color: rgb(255, 238, 217);
     background-color: black;
     color: white;
     padding: 15px 20px;
-    display: block;
+    display: inline-block;
     text-align: center;
     margin: 20px 50px;
+    margin-top: auto;
+    align-self: center;
+    border-radius: 15px 15px 15px;
   }
+  /* /////////////////////////////////////////////////////////////////Main-Anillos/////////////////////////////////////////////////////////////////////////////////////////////////// */
+ .footer{
+     padding: 40px 0;
+     background-color: black; 
+}
+.social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.social a{
+    font-size: 44px;
+    text-decoration: none;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    margin: 30px;
+    opacity: 0.75;
+}
+.footer ul{
+    margin-top: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 0%;
+    text-align: center;
+}
+.footer ul a{
+    color: white;
+    text-decoration: none;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.outer-footer {
+    margin-top:  15px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    
+}
