@@ -30,13 +30,14 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .nav li{
     font-size: 1.5rem;
 
 }
 .nav a{
-    margin: 0.4vw;
+    margin: 0%;
     color: black;
     text-decoration: none;
     }
@@ -47,18 +48,20 @@ li{
             text-align: center;
         }
         .nav li a{
-            font-size: 16px;
+            font-size: 25px;
+            font-weight: 500;
             display: grid;
             grid-template-columns: auto;
             text-align: center;
             line-height: 25px;
-
+            padding: 0.15em;
+        }
+        .nav{
+                margin: 2rem;
+              
+            }
 }
-}
-@media screen and (max-width:958px){
 
-
-}
 
 /* /////////////////////////////////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////////////////////////////////// */
    .maininx{
@@ -115,18 +118,60 @@ li{
     padding: 1% 5%; 
 }
   /* /////////////////////////////////////////////////////////////////Main-Index/////////////////////////////////////////////////////////////////////////////////////////////////// */
-  .titulocontacto{
-     text-align: center;
-     font-size: 4rem;
-     font-weight: 600;
-     margin: 0%;
-     padding: 0%;
-}
-.seccioncontacto{
-    margin: 2%;
-    padding: 5%;
-    background-color: rgb(209, 184, 129);
-}
+  .seccion-contecto{
+      
+  }
+  .contact-form{
+     width: 85%;
+     max-width: 600px;
+     background: rgb(255, 238, 217);
+     padding: 30px 40px;
+     box-sizing: border-box;
+     border-radius: 9px;
+      align-content: center;
+     box-shadow: 0 0 20px black;
+     margin-left: auto;
+     margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+    }
+    .contact-form p{
+        margin-top: 0;
+        font-weight: 200;
+        font-size: 2rem; 
+        margin-bottom: 2rem;
+        text-align: center;       
+        }
+        .txtb{
+            border: 1px solid gray;
+            margin: 8px 0;
+            padding: 12px 18px;
+            border-radius: 8px;
+        }
+        .textb label{
+            display: block;
+            text-align: left;
+            color: #333;
+           font-size: 14px
+           
+        }
+        .txtb input, .txtb textarea{
+            width: 100%;
+            background: none;
+            border: 1px solid grey;
+          
+        }
+        .btn-contacto{
+            display: block;
+            background: burlywood;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            margin-top: 5%;
+        }
+        
 
 /* /////////////////////////////////////////////////////////////////Main-Contacto/////////////////////////////////////////////////////////////////////////////////////////////////// */
 .containerproduct{
@@ -363,9 +408,21 @@ background-color: rgb(255, 238, 217);
     border-radius: 15px 15px 15px;
   }
   /* /////////////////////////////////////////////////////////////////Main-Anillos/////////////////////////////////////////////////////////////////////////////////////////////////// */
- .footer{
+ body
+ {
+     position: relative;
+     padding-bottom: 13rem;
+     
+}
+  .footer{
      padding: 40px 0;
      background-color: black; 
+     display: block;
+     margin: 0%;
+     position: absolute;
+     bottom: 0%;
+     width: 100%;
+     
 }
 .social{
     text-align: center;
