@@ -107,6 +107,7 @@ li{
     background-color: rgb(247, 140, 154);
     margin: 2%;
     border-radius: 6px;
+    margin-top: 5rem;
 }
 
 .secciondos__titulo{
@@ -115,8 +116,19 @@ li{
 }
 .secciondos__texto{
     font-size: 2.5vh;
-    padding: 1% 5%; 
+    padding: 1% 5%;
+    
 }
+@media screen and (max-width:952px){
+    .seccionuno{
+        margin-top: 3rem};
+    }
+    .secciondos{
+        margin-bottom: 3rem;
+    }
+}
+
+
   /* /////////////////////////////////////////////////////////////////Main-Index/////////////////////////////////////////////////////////////////////////////////////////////////// */
   .seccion-contecto{
       
